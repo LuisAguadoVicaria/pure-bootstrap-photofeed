@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Instagram</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"> </head>
+
+<body class="shadow">
+	<nav class="container-fluid navbar navbar-expand-lg bg-light"> <a class="navbar-brand fs-2 fw-bold fst-italic mx-4" href="#"><i class="bi-instagram mx-4"></i>Instagram</a>
+		<div class="d-flex ms-auto" id="navbarSupportedContent">
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> Create Post </button>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<div class="form-floating">
+								<textarea class="mb-3 form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+							</div>
+							<button type="button" class="btn btn-light"> <i class="bi-camera"></i> </button>
+							<button type="button" class="btn btn-light"><i class="bi-map"></i></button>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success">Publish</button>
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mx-2 dropdown">
+				<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi-gear-fill"></i> </button>
+				<ul class="mt-2 dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+					<li><a class="dropdown-item" href="#">Action</a></li>
+					<li><a class="dropdown-item" href="#">Another action</a></li>
+					<li><a class="dropdown-item" href="#">Something else here</a></li>
+					<li>
+						<hr class="dropdown-divider"> </li>
+					<li><a class="dropdown-item" href="#">Logout</a></li>
+				</ul>
+			</div>
+	</nav>
+	</nav>
+	<header class="border p-2 nav nav-pills justify-content-center" id="myTab" role="tablist">
+		<li class="nav-item" role="presentation">
+			<button class="mx-2 btn btn-light active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="bi-grid"></i></button>
+		</li>
+		<li class="nav-item" role="presentation">
+			<button class="mx-2 btn btn-light" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="bi-app"></i></button>
+		</li>
+	</header>
+	<main class="tab-content" id="myTabContent">
+		<section class="container-fluid tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+			<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2">
+				<div class="col p-0"><img src="https://picsum.photos/800/600?random=1" class="img-fluid" alt="..."></div>
+				<div class="col p-0"><img src="https://picsum.photos/800/600?random=2" class="img-fluid" alt="..."></div>
+				<div class="col p-0"><img src="https://picsum.photos/800/600?random=3" class="img-fluid" alt="..."></div>
+				<div class="col p-0"><img src="https://picsum.photos/800/600?random=4" class="img-fluid" alt="..."></div>
+				<div class="col p-0"><img src="https://picsum.photos/800/600?random=5" class="img-fluid" alt="..."></div>
+				<div class="col p-0"><img src="https://picsum.photos/800/600?random=6" class="img-fluid" alt="..."></div>
+				<div class="col p-0"><img src="https://picsum.photos/800/600?random=7" class="img-fluid" alt="..."></div>
+				<div class="col p-0"><img src="https://picsum.photos/800/600?random=8" class="img-fluid" alt="..."></div>
+				<div class="col p-0"><img src="https://picsum.photos/800/600?random=9" class="img-fluid" alt="..."></div>
+			</div>
+		</section>
+		<section class="container-fluid tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+			<div class="row justify-content-center bg-light">
+				<article class="shadow col-10 col-lg-7 bg-white rounded p-0 my-4">
+					<header class="d-flex p-4">
+						<h1 class="fs-3 my-auto">My Photo</h1>
+						<time class="fs-5 fw-semibold ms-auto my-auto">11/11</time>
+					</header> <img src="https://picsum.photos/1200/800?random=23" class="img-fluid min-vh-60 mx-auto d-block" alt="...">
+					<h5 class="p-3">23 Likes</h5>
+					<p class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Liked a lot and greetings :)</p>
+					<aside class="p-3"><span><i class="bi bi-heart me-4"></i>Comment...</span><i class="float-end bi bi-three-dots-vertical"></i></aside>
+				</article>
+				<article class="shadow col-10 col-lg-7 bg-white rounded p-0 my-4">
+					<header class="d-flex p-4">
+						<h1 class="fs-3 my-auto">My Photo</h1>
+						<time class="fs-5 fw-semibold ms-auto my-auto">11/11</time>
+					</header> <img src="https://picsum.photos/1200/800?random=234" class="img-fluid min-vh-60 mx-auto d-block" alt="...">
+					<h5 class="p-3">23 Likes</h5>
+					<p class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Liked a lot and greetings :)</p>
+					<aside class="p-3"><span><i class="bi bi-heart me-4"></i>Comment...</span><i class="float-end bi bi-three-dots-vertical"></i></aside>
+				</article>
+				<article class="shadow col-10 col-lg-7 bg-white rounded p-0 my-4">
+					<header class="d-flex p-4">
+						<h1 class="fs-3 my-auto">My Photo</h1>
+						<time class="fs-5 fw-semibold ms-auto my-auto">11/11</time>
+					</header> <img src="https://picsum.photos/1200/800?random=236" class="img-fluid min-vh-60 mx-auto d-block" alt="...">
+					<h5 class="p-3">23 Likes</h5>
+					<p class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Liked a lot and greetings :)</p>
+					<aside class="p-3"><span><i class="bi bi-heart me-4"></i>Comment...</span><i class="float-end bi bi-three-dots-vertical"></i></aside>
+				</article>
+			</div>
+		</section>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+
+</html>
