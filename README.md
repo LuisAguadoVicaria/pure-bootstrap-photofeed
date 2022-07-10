@@ -4,8 +4,8 @@
   Posts and photo feed made only with Bootstrap
 </p>
 <p align="center" >
-  <a href="https://github.com/LuisAguadoVicaria/LuisAguadoVicaria/raw/main/proyect-images/live-demo-button.png">
-    <img height="44px"  src="https://github.com/LuisAguadoVicaria/priv-readme-src/raw/main/proyect-images/LiveDEMObutton.png" alt="live-demo" align="center">
+  <a href="https://luisaguadovicaria.github.io/pure-bootstrap-photofeed/">
+    <img height="44px"  src="https://github.com/LuisAguadoVicaria/LuisAguadoVicaria/raw/main/proyect-images/live-demo-button.png" alt="live-demo" align="center">
   </a>
 </p>
 
